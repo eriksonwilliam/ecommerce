@@ -9,12 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>service-email</artifactId>
+    <artifactId>service-fraud-detector</artifactId>
     <dependencies>
         <dependency>
             <groupId>br.com.alura</groupId>
             <artifactId>common-kafka</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>br.com.alura</groupId>
+            <artifactId>common-database</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
